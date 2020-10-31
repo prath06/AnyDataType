@@ -1,3 +1,8 @@
+'''
+Procedure to sort a list of homogeneous data (any type)
+@Author: Priyansu Rath
+'''
+
 def bubbleSort(inputData):
     for el in range(len(inputData)-1,0,-1):
         for i in range(el):
